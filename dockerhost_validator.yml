@@ -1,0 +1,10 @@
+- name: validator
+  hosts: localhost
+  connection: local
+  tasks:
+  - name: validate docker container
+    uri:
+      url: http://192.168.56.104:8080
+      return_container: yes
+    register: code1
+    failed_when: "'This is an example paragraph'  not in code1.content"
