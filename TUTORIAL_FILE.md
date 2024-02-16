@@ -47,7 +47,8 @@ You can edit a file stored in Cloud Shell using Cloud Shell’s built-in text ed
 *  Look at the source file for this tutorial by opening `tutorial.md`.
 *  Try making a change to the file for this tutorial, then saving it using the <walkthrough-editor-spotlight spotlightId="fileMenu">file menu</walkthrough-editor-spotlight>.
 
-To restart the tutorial with your changes, run:
+
+## To restart the tutorial with your changes, run:
 ```bash
 cloudshell launch-tutorial -d tutorial.md
 ```
@@ -107,9 +108,10 @@ Next up, adding helpful links and icons to your tutorial.
 
 In the Markdown for your tutorial, you may include special directives that are specific to the tutorial engine. These allow you to include helpful shortcuts to actions that you may ask a user to perform.
 
-
+``` Disabling the editor launch
 ### Trigger file actions in the text editor
 To include a link to <walkthrough-editor-open-file filePath="cloud-shell-tutorials/tutorial.md">open a file for editing</walkthrough-editor-open-file>, use:
+```
 
 ```
 <walkthrough-editor-open-file
