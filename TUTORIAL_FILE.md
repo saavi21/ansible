@@ -159,12 +159,12 @@ Here is how you can create a button for your website, blog, or open source proje
 
 To build a link for the 'Open in Cloud Shell' feature, start with this base HTML and replace the following:
 
-**`YOUR_REPO_URL_HERE`** with the project repository URL that you'd like cloned for your users in their launched Cloud Shell environment.
+**`https://github.com/saavi21/ansible.git`** with the project repository URL that you'd like cloned for your users in their launched Cloud Shell environment.
 
 **`TUTORIAL_FILE.md`** with your tutorial’s Markdown file. The path to the file is relative to the root directory of your project repository.
 
 ```
-<a  href="https://console.cloud.google.com/cloudshell/open?git_repo=YOUR_REPO_URL_HERE&tutorial=TUTORIAL_FILE.md">
+<a  href="https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/saavi21/ansible.git&tutorial=TUTORIAL_FILE.md">
     <img alt="Open in Cloud Shell" src="http://gstatic.com/cloudssh/images/open-btn.png">
 </a>
 ```
@@ -177,10 +177,10 @@ Once you've edited the above HTML with the appropriate values for `git_repo` and
 If you are posting the 'Open in Cloud Shell' button in a location that accepts Markdown instead of HTML, use this example instead:
 
 ```
-[![Open this project in Cloud Shell](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=YOUR_REPO_URL_HERE&page=editor&tutorial=TUTORIAL_FILE.md)
+[![Open this project in Cloud Shell](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/saavi21/ansible.git&page=editor&tutorial=TUTORIAL_FILE.md)
 ```
 
-Likewise, once you've replaced `YOUR_REPO_URL_HERE` and `TUTORIAL_FILE.md` in the 'Open in Cloud Shell' URL as described above, the resulting Markdown snippet can be used to create your button.
+Likewise, once you've replaced `https://github.com/saavi21/ansible.git` and `TUTORIAL_FILE.md` in the 'Open in Cloud Shell' URL as described above, the resulting Markdown snippet can be used to create your button.
 
 
 ## Congratulations
